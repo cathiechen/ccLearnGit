@@ -23,3 +23,11 @@ git log --pretty=oneline
 rm xxx
 git rm xxx
 git commit -m "rm xxx"
+
+
+github:
+ssh-keygen -t rsa -C "xxx@xxx.com"
+git remote add origin git@github.com:cathiechen/xxx.git
+git push -u origin master
+... ...
+git push origin mater
