@@ -1,0 +1,25 @@
+git config --global user.name "xx"
+git config --golobal user.email xxx@xxx.com
+
+git init
+git add
+git commit -m ""
+
+git reset HEAD^
+git reflog
+git reset --hard commitID
+
+
+git checkout -- filepath
+git reset HEAD file
+
+git diff
+
+fit status
+
+git log
+git log --pretty=oneline
+
+rm xxx
+git rm xxx
+git commit -m "rm xxx"
