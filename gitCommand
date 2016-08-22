@@ -39,3 +39,8 @@ git config --global http.proxy http://xxx
 
 git clone https://xxx
 git clone -c http.proxy=xxx http://xxx
+
+
+//test change user.name
+git config user.name "cathiechen"
+git config user.email cathiechen@tencent.com
