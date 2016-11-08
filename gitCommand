@@ -44,3 +44,15 @@ git clone -c http.proxy=xxx http://xxx
 //test change user.name
 git config user.name "cathiechen"
 git config user.email cathiechen@tencent.com
+
+
+//difference between merge and rebase
+//rebase is a kind of merge with local modify infront
+git merge <branch>
+git rebase <branch>
+
+//about github
+//1. git clone https://github.com...
+//2. modify in local
+//3. git push..
+
