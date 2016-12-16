@@ -56,3 +56,5 @@ git rebase <branch>
 //2. modify in local
 //3. git push..
 
+//update
+git pull
