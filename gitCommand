@@ -56,5 +56,8 @@ git rebase <branch>
 //2. modify in local
 //3. git push..
 
-//update
-git pull
+
+这行命令用于统计各公司的提交的patches数
+```
+git log --format='%aE' --since="1 Jan 2015" | awk -F@ '{print $2}' | sort -n | uniq -c
+```
