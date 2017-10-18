@@ -64,3 +64,6 @@ git log --format='%aE' --since="1 Jan 2015" | awk -F@ '{print $2}' | sort -n | u
 
 把每次修改直接输出出来：
 git log -p  
+
+修改本地已提交的log
+git commit --amend 
