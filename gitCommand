@@ -65,11 +65,8 @@ git log --format='%aE' --since="1 Jan 2015" | awk -F@ '{print $2}' | sort -n | u
 把每次修改直接输出出来：
 git log -p  
 
-<<<<<<< HEAD
 修改本地已提交的log
 git commit --amend 
-=======
 
 都没用过git revert，第一次用，好tm紧张！
 git revert c011eb3c20ba6fb38cc94fe5a8dda366a3990c61
->>>>>>> git revert
