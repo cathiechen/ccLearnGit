@@ -62,6 +62,17 @@ git rebase <branch>
 git log --format='%aE' --since="1 Jan 2015" | awk -F@ '{print $2}' | sort -n | uniq -c
 ```
 
+count files changed:
+```
+git log  --author=@tencent.com --shortstat --since="1 Jun 2017" --format='%aE' | grep files
+```
+
+count individual patches:
+```
+git log --format='%aE' --since="1 Jun 2017" | grep tencent.com | awk -F@ '{print $1}' | sort -n  | uniq -c
+```
+
+
 把每次修改直接输出出来：
 git log -p  
 
